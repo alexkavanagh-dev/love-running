@@ -274,6 +274,13 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -311,5 +318,16 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 auto;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/*  for small screen sizes 800px and lower */
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
     }
 }
